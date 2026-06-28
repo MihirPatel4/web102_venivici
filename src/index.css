@@ -49,3 +49,12 @@
     filter: invert(1) brightness(2);
   }
 }
+
+body {
+  display: flex;
+  place-items: center;
+}
+
+#root {
+  margin: 0 auto;
+}
