@@ -3,22 +3,7 @@
     text-align: center;
     padding: 30px;
     width: 600px;
-    height: 800px;
-}
-
-.seen-list {
-    color: black;
-    background-color: #d2d2d2;
-    padding: 15px;
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 20%;
-    height: 75%;
-    text-align: center;
-    overflow: auto;
+    min-height: 600px;
 }
 
 .ban-list {
@@ -29,25 +14,28 @@
     flex-direction: column;
     position: absolute;
     top: 0;
-    right: 0;
+    left: 0;
     width: 20%;
-    height: 75%;
+    min-height: 400px;
     text-align: center;
     overflow: auto;
 }
 
-.attribute-button {
+.attribute {
     border: 1px solid transparent;
     padding: 0.6em 1.2em;
     font-weight: 500;
-    cursor: pointer;
     margin: 5px;
     transition: border-color .25s;
     border-radius: 8px;
     font-size: 1em;
 }
 
-.attribute-button:hover {
+.attribute:focus {
+    filter: none;
+}
+
+#origin:hover {
     border-color: rgb(0, 119, 255);
 }
 
@@ -59,8 +47,22 @@
     font-weight: 500;
     cursor: pointer;
     font-size: 1em;
+    margin-top: 5px;
 }
 
 .discover-button:hover {
     border-color: #d3991bf0;
+}
+
+.entry-container h2 {
+    color: white;
+}
+
+.entry-image {
+    width: 50%;
+}
+
+.banned {
+    margin: 5px;
+    padding: 0.3em;
 }
