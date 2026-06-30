@@ -1,4 +1,4 @@
-# Web Development Project 4 - Dog Breed Discoverer
+# Web Development Project 4 - Random Cat Breed Discoverer
 
 Submitted by: Mihir Patel
 
